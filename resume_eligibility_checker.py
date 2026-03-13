@@ -6,7 +6,7 @@ def resume_eligibilie():
 
     if experience >= 5:
         print(name, "is eligible for Senior Developer role")
-    elif experience >=2 and experience<5:
+    elif experience >=2 :
         print(name, "is eligible for Mid Developer role")
     else:
         print(name, "is eligible for Junior Developer role")
