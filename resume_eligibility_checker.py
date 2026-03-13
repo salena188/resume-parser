@@ -1,22 +1,15 @@
 #check the eligibility 
 
-# name =input("Enter your name")
-# experience = int(input("Enter your years of experience"))
-
-# if experience >= 5:
-#    print(name, "is eligible for Senior Developer role")
-# else:
-#    print(name, "is eligible for Junior Developer role")
-
-
-def check_role():
+def resume_eligibilie():
     name = input("Enter your name: ")
     experience = int(input("Enter your years of experience: "))
 
     if experience >= 5:
         print(name, "is eligible for Senior Developer role")
+    elif experience >=2 and experience<5:
+        print(name, "is eligible for Mid Developer role")
     else:
         print(name, "is eligible for Junior Developer role")
 
 # calling the function
-check_role()
+resume_eligibilie()
